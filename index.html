@@ -3,143 +3,179 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/fonts.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+    <link rel="stylesheet" type="text/css" href="styles/about.css">
+    <title>Lorem Ipsum</title>
 </head>
 
 <body>
-<header class="sitename">
-    sitename
-</header>
+
+<div class="lower-layer">
+    <header class="sitename">
+        sitename
+    </header>
+</div>
 
 <main class="main">
-    <section class="home">
-        <nav class="home__nav">
-            <div class="home__nav-item">
-                home
+    <div class="content">
+        <section class="home">
+            <nav class="home__nav">
+                <div class="home__nav-item">home</div>
+                <div class="home__nav-item">about</div>
+                <div class="home__nav-item">serices</div>
+                <div class="home__nav-item">products</div>
+                <div class="home__nav-item">contact</div>
+            </nav>
+            <div class="home__slider">
+                <img class="slider__img" src="./assets/img/slider1.png" alt="Slider image">
             </div>
-            <div class="home__nav-item">
-                about us
-            </div>
-            <div class="home__nav-item">
-                serices
-            </div>
-            <div class="home__nav-item">
-                products
-            </div>
-            <div class="home__nav-item">
-                contact
-            </div>
-        </nav>
-        <div class="home__slider">
-        </div>
 
-        <div class="home__info">
-            <div class="info__title">Lorem ipsum</div>
-            <div class="info__desc">Donec nec justo eget felis facilisis fermentum.
-                Aliquam porttit or mauris sit amet orci. Aenean dignissim pellentesque felis.
-            </div>
-            <button class="info__button">read more</button>
-        </div>
-    </section>
-
-
-    <section class="about">
-        <div class="about__title">Vivamus vest</div>
-        <div class="about__desc">Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod
-            vel,
-            velit.
-            Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.
-        </div>
-
-        <div class="about__benefits">
-            <div class="benefit">
-                <div class="benefit__icon"></div>
-                <div class="benefit__title">Fusce pellentesque suscipit nibh</div>
-                <div class="benefit__desc">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus
-                    metus
-                    libero eu augue. Morbi purus libero, id...
+            <div class="home__info">
+                <div class="info__title">Lorem ipsum</div>
+                <div class="info__desc">Donec nec justo eget felis facilisis fermentum.<br/>
+                    Aliquam porttit or mauris sit amet orci. Aenean dignissim pellentesque felis.
                 </div>
-                <div class="benefit__link">more info</div>
-            </div>
-            <div class="benefit">
-                <div class="benefit__icon"></div>
-                <div class="benefit__title">Vestibulum commodo felis quis tort</div>
-                <div class="benefit__desc">Ced egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus
-                    metus
-                    libero eu augue. Morbi purus libero, faucib...
+                <div class="home__more">
+                    <div class="info__stripes">
+                        <div class="info__stripe"></div>
+                        <div class="info__stripe"></div>
+                        <div class="info__stripe"></div>
+                    </div>
+                    <button class="info__button">read more</button>
+                    <div class="info__stripes">
+                        <div class="info__stripe"></div>
+                        <div class="info__stripe"></div>
+                        <div class="info__stripe"></div>
+                    </div>
                 </div>
-                <div class="benefit__link">more info</div>
             </div>
-            <div class="benefit">
-                <div class="benefit__icon"></div>
-                <div class="benefit__title">Vestibulum commodo felis quis tort</div>
-                <div class="benefit__desc">Tegestas, ante et vulputate volutpat, eros pede semper est, vitae luctus
-                    metus
-                    libero eu augue. Morbi purus libero, fauc...
-                </div>
-                <div class="benefit__link">more info</div>
-            </div>
-        </div>
-    </section>
+        </section>
 
 
-    <section class="serices">
-        <div class="serices__title">Cras iaculis</div>
-        <div class="serices__desc">Fusce lobortis lorem at ipsum semper sagittis</div>
-        <div class="serices__cards">
-            <div class="card">
-                <div class="card__title">Vestibulum commodo felis quis tortor</div>
-                <div class="card__image"></div>
-                <div class="card__desc">Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus.
-                    Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-                </div>
-                <div class="card__link">more info</div>
+        <section class="about">
+            <div class="about__title">Vivamus vest</div>
+            <div class="about__desc">Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod
+                vel, velit.<br/>
+                Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.
             </div>
-            <div class="card">
-                <div class="card__title">Donec quis dui at dolor tempor interdum</div>
-                <div class="card__image"></div>
-                <div class="card__desc">Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi
-                    ullamcorper vehicula. Integer adipiscing risus
+
+            <div class="about__benefits">
+                <div class="benefit">
+                    <div class="benefit__icon-container">
+                        <div class="benefit__icon"><img src="assets/icons/edit.svg" alt="pen"></div>
+                    </div>
+
+                    <div class="benefit__info">
+                        <div class="benefit__title">Fusce pellentesque <br/>
+                            suscipit nibh
+                        </div>
+                        <div class="benefit__desc">Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae
+                            luctus
+                            metus
+                            libero eu augue. Morbi purus libero, id...
+                        </div>
+                        <div class="benefit__link">more info</div>
+                    </div>
                 </div>
-                <div class="card__link">more info</div>
-            </div>
-            <div class="card">
-                <div class="card__title">Fusce lobortis lorem at ipsum semper</div>
-                <div class="card__image"></div>
-                <div class="card__desc">Faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer
-                    sagittis.
-                    Vivamus a mauris eget arcu gravida tristique
+                <div class="benefit">
+                    <div class="benefit__icon-container">
+                        <div class="benefit__icon"><img src="assets/icons/multiple-users-silhouette.svg" alt="group of people"></div>
+                    </div>
+
+                    <div class="benefit__info">
+                        <div class="benefit__title">Integer vitae libero <br/>
+                            ac risus egestas
+                        </div>
+                        <div class="benefit__desc">Ced egestas, ante et vulputate volutpat, eros pede semper est, vitae
+                            luctus
+                            metus
+                            libero eu augue. Morbi purus libero, faucib...
+                        </div>
+                        <div class="benefit__link">more info</div>
+                    </div>
                 </div>
-                <div class="card__link">more info</div>
+                <div class="benefit">
+                    <div class="benefit__icon-container">
+                        <div class="benefit__icon"><img src="assets/icons/wrench.svg" alt="wrench"></div>
+                    </div>
+
+                    <div class="benefit__info">
+                        <div class="benefit__title">Vestibulum commodo<br/>
+                            felis quis tort
+                        </div>
+                        <div class="benefit__desc">Tegestas, ante et vulputate volutpat, eros pede semper est, vitae
+                            luctus
+                            metus
+                            libero eu augue. Morbi purus libero, fauc...
+                        </div>
+                        <div class="benefit__link">more info</div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
-    <section class="products">
-        <div class="products__title">Nunc digniss</div>
-        <div class="products__desc">Praesent dapibus, neque id cursus faucibus,<br/>
-            tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat<br/>
-            volutpat. Nam dui mi, tincidunt quis, accumsan porttitor
-        </div>
-        <div class="products__list">
-            <div class="prod-list__title">our products</div>
-            <div class="prod-list__row">
-                <div class="prod-list__item">Integer vit</div>
-                <div class="prod-list__item">donce ametuno</div>
+        <section class="serices">
+            <div class="serices__title">Cras iaculis</div>
+            <div class="serices__desc">Fusce lobortis lorem at ipsum semper sagittis</div>
+            <div class="serices__cards">
+                <div class="card">
+                    <div class="card__title">Vestibulum commodo felis quis tortor</div>
+                    <div class="card__image"></div>
+                    <div class="card__desc">Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus.
+                        Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
+                    </div>
+                    <div class="card__link">more info</div>
+                </div>
+                <div class="card">
+                    <div class="card__title">Donec quis dui at dolor tempor interdum</div>
+                    <div class="card__image"></div>
+                    <div class="card__desc">Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet
+                        mi
+                        ullamcorper vehicula. Integer adipiscing risus
+                    </div>
+                    <div class="card__link">more info</div>
+                </div>
+                <div class="card">
+                    <div class="card__title">Fusce lobortis lorem at ipsum semper</div>
+                    <div class="card__image"></div>
+                    <div class="card__desc">Faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer
+                        sagittis.
+                        Vivamus a mauris eget arcu gravida tristique
+                    </div>
+                    <div class="card__link">more info</div>
+                </div>
             </div>
-            <div class="prod-list__row">
-                <div class="prod-list__item">voluptanin</div>
-                <div class="prod-list__item">tincidun</div>
-                <div class="prod-list__item">porttion souti</div>
+        </section>
+
+
+        <section class="products">
+            <div class="products__title">Nunc digniss</div>
+            <div class="products__desc">Praesent dapibus, neque id cursus faucibus,<br/>
+                tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat<br/>
+                volutpat. Nam dui mi, tincidunt quis, accumsan porttitor
             </div>
-            <div class="prod-list__row">
-                <div class="prod-list__item">namdui sinosi</div>
-                <div class="prod-list__item">fermnutin</div>
+            <div class="products__list">
+                <div class="prod-list__title">our products</div>
+                <div class="prod-list__row">
+                    <div class="prod-list__item">Integer vit</div>
+                    <div class="prod-list__item">donce ametuno</div>
+                </div>
+                <div class="prod-list__row">
+                    <div class="prod-list__item">voluptanin</div>
+                    <div class="prod-list__item">tincidun</div>
+                    <div class="prod-list__item">porttion souti</div>
+                </div>
+                <div class="prod-list__row">
+                    <div class="prod-list__item">namdui sinosi</div>
+                    <div class="prod-list__item">fermnutin</div>
+                </div>
             </div>
-        </div>
-        <button class="products__button"></button>
-    </section>
+            <button class="products__button"></button>
+        </section>
+    </div>
 </main>
 
 <footer class="contacts">
