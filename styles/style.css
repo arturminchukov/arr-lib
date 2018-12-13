@@ -1,0 +1,49 @@
+/*Custom styles*/
+body {
+    background: linear-gradient(to left, #2c2c2c 47%, #2f2f2f 47%, #2f2f2f 53%, #303030 53%, #303030 100%);
+    background-size: 40px 100%;
+}
+
+* {
+    font-family: SourceSansPro, SansSerif;
+}
+
+.lower-layer {
+    height: 97px;
+    width: 1230px;
+    margin: auto;
+}
+
+.sitename {
+    background-color: #ebebeb;
+    box-shadow: -9px 10px 0 0 #2b2a2a2e;
+
+    width: 260px;
+    height: 105px;
+    border-radius: 8px;
+
+    display: block;
+    position: relative;
+    left: calc(50% - 130px);
+    top: 51px;
+    right: auto;
+
+    text-transform: uppercase;
+    font: 900 40px SourceSansPro;
+    color: #373435;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 105px;
+}
+
+.main {
+    margin: auto;
+    background-color: #ebebeb;
+    width: 1230px;
+    border-radius: 8px;
+}
+
+.content {
+    width: 1170px;
+    margin: auto;
+}
