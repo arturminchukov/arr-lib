@@ -39,3 +39,7 @@
     border-radius: 5px;
     box-shadow: -4px 4px 0px 0px #2b2a2a2e;
 }
+
+.more-btn__button:hover {
+    cursor: pointer;
+}

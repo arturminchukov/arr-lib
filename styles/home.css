@@ -33,6 +33,7 @@
 
 .home__nav-item:hover {
     color: #ed3237;
+    cursor: pointer;
 }
 
 .home__slider {
