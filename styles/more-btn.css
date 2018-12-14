@@ -1,0 +1,41 @@
+.more-btn {
+    font-size: 0;
+    margin: 54px auto auto;
+    display: table;
+}
+
+.more-btn > * {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.more-btn__stripes {
+    width: 509px;
+    display: inline-block;
+}
+
+.more-btn__stripe {
+    margin-bottom: 6px;
+    border-top: 1px solid #c2c2c2;
+}
+
+.more-btn__stripes :last-child {
+    margin-top: 8px;
+}
+
+.more-btn__button {
+    width: 120px;
+    height: 37px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    background-color: #ed3237;
+    color: #ebebeb;
+    text-transform: uppercase;
+    font: 600 16px SourceSansPro;
+    letter-spacing: 1px;
+
+    border: 0;
+    border-radius: 5px;
+    box-shadow: -4px 4px 0px 0px #2b2a2a2e;
+}

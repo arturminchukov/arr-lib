@@ -4,21 +4,11 @@
 }
 
 .about__title {
-    margin: 52px auto auto;
-    text-align: center;
-    font: bold 32px SourceSansPro;
-    letter-spacing: 2px;
-    color: #373435;
-    text-transform: uppercase;
+    margin-top: 52px;
 }
 
 .about__desc {
     margin-top: 7px;
-    font: 18px SourceSansPro;
-    letter-spacing: 1px;
-    line-height: 22px;
-    text-align: center;
-    color: #676364;
 }
 
 .about__benefits {
@@ -33,7 +23,7 @@
 }
 
 .benefit:first-child {
-    margin: 0px;
+    margin: 0;
 }
 
 .benefit__icon {

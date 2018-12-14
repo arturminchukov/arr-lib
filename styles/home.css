@@ -54,59 +54,13 @@
 }
 
 .info__title {
-    text-align: center;
-    font: bold 32px SourceSansPro;
-    letter-spacing: 2px;
-    color: #373435;
-    text-transform: uppercase;
+
 }
 
 .info__desc {
     margin-top: 7px;
-    font: 18px SourceSansPro;
-    letter-spacing: 1px;
-    text-align: center;
-    color: #676364;
 }
 
-.home__more {
-    font-size: 0;
-    margin: 54px auto auto;
-    display: table;
-}
-
-.home__more > * {
-    display: table-cell;
-    vertical-align: bottom;
-}
-
-.info__stripes {
-    width: 509px;
-    display: inline-block;
-}
-
-.info__stripe {
-    margin-bottom: 7px;
-    border-top: 1px solid #c2c2c2;
-}
-
-.info__stripes :last-child {
-    margin-top: 8px;
-}
-
-.info__button {
-    width: 120px;
-    height: 37px;
-    margin-left: 12px;
-    margin-right: 12px;
-
-    background-color: #ed3237;
-    color: #ebebeb;
-    text-transform: uppercase;
-    font: 600 16px SourceSansPro;
-    letter-spacing: 1px;
-
-    border: 0;
-    border-radius: 5px;
-    box-shadow: -4px 4px 0px 0px #2b2a2a2e;
+.home__info-more {
+    margin-top: 56px;
 }

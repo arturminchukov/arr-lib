@@ -5,9 +5,12 @@
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/fonts.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/section-header.css">
+    <link rel="stylesheet" type="text/css" href="styles/more-btn.css">
     <link rel="stylesheet" type="text/css" href="styles/home.css">
     <link rel="stylesheet" type="text/css" href="styles/about.css">
     <link rel="stylesheet" type="text/css" href="styles/serices.css">
+    <link rel="stylesheet" type="text/css" href="styles/products.css">
     <title>Lorem Ipsum</title>
 </head>
 
@@ -34,21 +37,21 @@
             </div>
 
             <div class="home__info">
-                <div class="info__title">Lorem ipsum</div>
-                <div class="info__desc">Donec nec justo eget felis facilisis fermentum.<br/>
+                <div class="section__header-title info__title">Lorem ipsum</div>
+                <div class="section__header-desc info__desc">Donec nec justo eget felis facilisis fermentum.<br/>
                     Aliquam porttit or mauris sit amet orci. Aenean dignissim pellentesque felis.
                 </div>
-                <div class="home__more">
-                    <div class="info__stripes">
-                        <div class="info__stripe"></div>
-                        <div class="info__stripe"></div>
-                        <div class="info__stripe"></div>
+                <div class="more-btn home__info-more">
+                    <div class="more-btn__stripes">
+                        <div class="more-btn__stripe"></div>
+                        <div class="more-btn__stripe"></div>
+                        <div class="more-btn__stripe"></div>
                     </div>
-                    <button class="info__button">read more</button>
-                    <div class="info__stripes">
-                        <div class="info__stripe"></div>
-                        <div class="info__stripe"></div>
-                        <div class="info__stripe"></div>
+                    <button class="more-btn__button">read more</button>
+                    <div class="more-btn__stripes">
+                        <div class="more-btn__stripe"></div>
+                        <div class="more-btn__stripe"></div>
+                        <div class="more-btn__stripe"></div>
                     </div>
                 </div>
             </div>
@@ -56,8 +59,9 @@
 
 
         <section class="about">
-            <div class="about__title">Vivamus vest</div>
-            <div class="about__desc">Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod
+            <div class="section__header-title about__title">Vivamus vest</div>
+            <div class="section__header-desc about__desc">Sed adipiscing ornare risus. Morbi est est, blandit sit amet,
+                sagittis vel, euismod
                 vel, velit.<br/>
                 Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.
             </div>
@@ -117,8 +121,8 @@
 
 
         <section class="serices">
-            <div class="serices__title">Cras iaculis</div>
-            <div class="serices__desc">Fusce lobortis lorem at ipsum semper sagittis</div>
+            <div class="section__header-title serices__title">Cras iaculis</div>
+            <div class="section__header-desc serices__desc">Fusce lobortis lorem at ipsum semper sagittis</div>
             <div class="serices__cards">
                 <div class="card">
                     <div class="card__title">Vestibulum commodo<br/> felis quis tortor</div>
@@ -151,28 +155,40 @@
 
 
         <section class="products">
-            <div class="products__title">Nunc digniss</div>
-            <div class="products__desc">Praesent dapibus, neque id cursus faucibus,<br/>
+            <div class="section__header-title products__title">Nunc digniss</div>
+            <div class="section__header-desc products__desc">Praesent dapibus, neque id cursus faucibus,<br/>
                 tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat<br/>
                 volutpat. Nam dui mi, tincidunt quis, accumsan porttitor
             </div>
+            <div class="prod-list__title">our products</div>
             <div class="products__list">
-                <div class="prod-list__title">our products</div>
                 <div class="prod-list__row">
-                    <div class="prod-list__item">Integer vit</div>
-                    <div class="prod-list__item">donce ametuno</div>
+                    <div class="prod-list__item prod-list__item_sm">Integer vit</div>
+                    <div class="prod-list__item prod-list__item_lg">donce ametuno</div>
                 </div>
                 <div class="prod-list__row">
-                    <div class="prod-list__item">voluptanin</div>
-                    <div class="prod-list__item">tincidun</div>
+                    <div class="prod-list__item prod-list__item_lg">voluptanin</div>
+                    <div class="prod-list__item prod-list__item_xs">tincidun</div>
                     <div class="prod-list__item">porttion souti</div>
                 </div>
                 <div class="prod-list__row">
-                    <div class="prod-list__item">namdui sinosi</div>
-                    <div class="prod-list__item">fermnutin</div>
+                    <div class="prod-list__item prod-list__item_sm">namdui sinosi</div>
+                    <div class="prod-list__item prod-list__item_dif">fermnutin</div>
                 </div>
             </div>
-            <button class="products__button"></button>
+            <div class="more-btn products__info-more">
+                <div class="more-btn__stripes">
+                    <div class="more-btn__stripe"></div>
+                    <div class="more-btn__stripe"></div>
+                    <div class="more-btn__stripe"></div>
+                </div>
+                <button class="more-btn__button">view more</button>
+                <div class="more-btn__stripes">
+                    <div class="more-btn__stripe"></div>
+                    <div class="more-btn__stripe"></div>
+                    <div class="more-btn__stripe"></div>
+                </div>
+            </div>
         </section>
     </div>
 </main>

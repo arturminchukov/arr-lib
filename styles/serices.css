@@ -4,21 +4,11 @@
 }
 
 .serices__title {
-    margin: 50px auto auto;
-    font: bold 32px SourceSansPro;
-    text-align: center;
-    letter-spacing: 2px;
-    color: #373435;
-    text-transform: uppercase;
+    margin-top: 50px;
 }
 
 .serices__desc {
     margin-top: 6px;
-    font: 18px SourceSansPro;
-    letter-spacing: 1px;
-    line-height: 22px;
-    text-align: center;
-    color: #676364;
 }
 
 .serices__cards {
@@ -67,7 +57,7 @@
     font: 14px/22px SourceSansPro;
 }
 
-.card__more{
+.card__more {
     margin-top: 20px;
     margin-left: 28px;
 }
