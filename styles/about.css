@@ -78,14 +78,15 @@
     color: #676364;
 }
 
-.benefit__link {
+.more__link {
     margin-top: 29px;
-    font-size: 16px;
+    font: bold 14px SourceSansPro;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.benefit__link-arrow {
+.more__link-arrow {
     color: #ed3237;
-    font-size: 16px;
+    font: bold 14px SourceSansPro;
     font-stretch: extra-condensed;
 }
