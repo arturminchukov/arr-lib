@@ -1,0 +1,16 @@
+.section__header-title {
+    margin: auto;
+    font: bold 32px SourceSansPro;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #373435;
+    text-transform: uppercase;
+}
+
+.section__header-desc {
+    font: 18px SourceSansPro;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-align: center;
+    color: #676364;
+}

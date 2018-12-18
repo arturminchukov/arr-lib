@@ -1,0 +1,21 @@
+.about {
+    margin-top: 52px;
+    width: 100%;
+}
+
+.about__desc {
+    width: 780px;
+    margin: 7px auto auto;
+}
+
+.about__benefits {
+    margin-top: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about__separator {
+    margin-top: 52px;
+}
