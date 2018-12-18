@@ -1,8 +1,36 @@
+.serices {
+    height: 600px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.serices__title {
+    margin: 50px auto auto;
+    font: bold 32px SourceSansPro;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #373435;
+    text-transform: uppercase;
+}
+
+.serices__desc {
+    margin-top: 6px;
+    font: 18px SourceSansPro;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-align: center;
+    color: #676364;
+}
+
+.serices__cards {
+    margin: 46px auto auto;
+    width: fit-content;
+}
+
 .card {
     width: 270px;
     height: 420px;
     background-color: #e2e2e2;
-    box-shadow: -9px 10px 0 0 #2b2a2a2e;
+    box-shadow: -9px 10px 0px 0px #2b2a2a2e;
     border-radius: 8px 0 8px 8px;
 
     display: inline-table;
@@ -14,15 +42,11 @@
 }
 
 .card__title {
-    width: 210px;
-    padding: 36px 0 0 29px;
-    height: 40px;
-
     font: bold 16px SourceSansPro;
     text-transform: uppercase;
+    margin-left: 29px;
+    margin-top: 33px;
     letter-spacing: 1px;
-    line-height: 21px;
-    overflow: hidden;
 }
 
 .card__image {
@@ -36,15 +60,15 @@
 
 .card__desc {
     width: 220px;
-    height: 85px;
-    margin: 21px 0 22px 28px;
+    margin-top: 21px;
+    margin-left: 28px;
 
     color: #676364;
     font: 14px/22px SourceSansPro;
-    hyphens: auto;
-    overflow: hidden;
 }
 
-.card__more {
-    margin: 20px 0 0 28px;
+.card__more{
+    margin-top: 20px;
+    margin-left: 28px;
 }
+
