@@ -1,9 +1,5 @@
 .products {
-    height: 470px;
-}
-
-.products__title {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 .products__desc {
@@ -36,10 +32,6 @@
 
 .prod-list__row:last-child {
     margin-left: calc(37% + 10px);
-}
-
-.prod-list__row:first-child {
-
 }
 
 .prod-list__item {
@@ -87,4 +79,5 @@
 
 .products__info-more {
     margin-top: 42px;
+    margin-bottom: 78px;
 }

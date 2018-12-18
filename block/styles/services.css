@@ -1,0 +1,16 @@
+.services {
+    margin-top: 46px;
+}
+
+.services__desc {
+    margin-top: 6px;
+}
+
+.services__cards {
+    margin: 46px auto auto;
+    width: fit-content;
+}
+
+.services__separator{
+    margin-top: 63px;
+}
