@@ -1,0 +1,50 @@
+.card {
+    width: 270px;
+    height: 420px;
+    background-color: #e2e2e2;
+    box-shadow: -9px 10px 0 0 #2b2a2a2e;
+    border-radius: 8px 0 8px 8px;
+
+    display: inline-table;
+    margin-left: 27px;
+}
+
+.card:first-child {
+    margin-left: 0;
+}
+
+.card__title {
+    width: 210px;
+    padding: 36px 0 0 29px;
+    height: 40px;
+
+    font: bold 16px SourceSansPro;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 21px;
+    overflow: hidden;
+}
+
+.card__image {
+    margin-top: 20px;
+}
+
+.card__image > img {
+    height: 147px;
+    width: 270px;
+}
+
+.card__desc {
+    width: 220px;
+    height: 85px;
+    margin: 21px 0 22px 28px;
+
+    color: #676364;
+    font: 14px/22px SourceSansPro;
+    hyphens: auto;
+    overflow: hidden;
+}
+
+.card__more {
+    margin: 20px 0 0 28px;
+}
