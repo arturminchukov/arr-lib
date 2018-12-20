@@ -33,8 +33,7 @@
     display: inline-block;
     width: 120px;
     height: 37px;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin: 0 12px 0 12px;
 
     background-color: #ed3237;
     color: #ebebeb;
