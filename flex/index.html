@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="styles/services.css">
     <link rel="stylesheet" type="text/css" href="styles/products.css">
     <link rel="stylesheet" type="text/css" href="styles/contacts.css">
+    <link rel="stylesheet" type="text/css" href="styles/accordion.css">
     <title>Lorem Ipsum</title>
 </head>
 
@@ -98,11 +99,17 @@
                         <h2 class="benefit__title">Fusce pellentesque <br/>
                             suscipit nibh
                         </h2>
-                        <p class="benefit__desc">Sed egestas, ante et vulputate volutpat, eros
-                            pede semper est, vitae luctus metus libero eu
-                            augue. Morbi purus libero, id...
-                        </p>
-                        <a class="view-more__link">more info</a>
+                        <div class="accordion">
+                            <input id="ac-1" type="checkbox"/>
+                            <label for="ac-1" class="accordion__link">more info</label>
+                            <p class="benefit__desc accordion__desc">Sed egestas, ante et vulputate volutpat, eros
+                                pede semper est, vitae luctus metus libero eu
+                                augue. Morbi purus libero, id... sfsjdfsjdfljs fsdfk s;djf sd;fk sjd;fk df;skdfj sd
+                                gdfgdfglkd f;gdfgkd;fl eprokfpdofkg defgwewrwdifi jgfdf igdfg eorigj odfog erog gdfg
+                                jdf;gij;erjg gj;eirgj eir;gije;r jg;erijg ;ergje;rjg g;eirjg;f;f gdfjg erg jeorigj
+                                gerigjoi reigjeoi geirogieorig
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="benefit">
@@ -114,11 +121,16 @@
                         <h2 class="benefit__title">Integer vitae libero
                             ac risus egestas
                         </h2>
-                        <p class="benefit__desc">Ced egestas, ante et vulputate volutpat, eros
-                            pede semper est, vitae luctus metus libero eu
-                            augue. Morbi purus libero, faucib...
-                        </p>
-                        <a class="view-more__link">more info</a>
+                        <div class="accordion">
+                            <input id="ac-2" type="checkbox"/>
+                            <label for="ac-2" class="accordion__link">more info</label>
+                            <p class="benefit__desc accordion__desc">Ced egestas, ante et vulputate volutpat, eros
+                                pede semper est, vitae luctus metus libero eu
+                                augue. Morbi purus libero, faucib... text text text tesdfsdftext text text text
+                                text text text sdf sdf text text text sdfsdfst text text text text text
+                                text text text text sdfdsf
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="benefit">
@@ -128,11 +140,17 @@
                         <h2 class="benefit__title">Vestibulum commodo
                             felis quis tort
                         </h2>
-                        <p class="benefit__desc">Tegestas, ante et vulputate volutpat, eros
-                            pede semper est, vitae luctus metus libero eu
-                            augue. Morbi purus libero, fauc...
-                        </p>
-                        <a class="view-more__link">more info</a>
+                        <div class="accordion">
+                            <input id="ac-3" type="checkbox"/>
+                            <label for="ac-3" class="accordion__link">more info</label>
+                            <p class="benefit__desc accordion__desc">Tegestas, ante et vulputate volutpat, eros
+                                pede semper est, vitae luctus metus libero eu
+                                augue. Morbi purus libero, fauc... Morbi purus libero, faucib... text text text
+                                tesdfsdftext text text text
+                                text text text sdf sdf text text text sdfsdfst text text text text text
+                                text text text text sdfdsf
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -149,29 +167,46 @@
                 <div class="card">
                     <h2 class="card__title">Vestibulum commodo<br/> felis quis tortor</h2>
                     <div class="card__image"><img src="../assets/img/Hitman.png"/></div>
-                    <p class="card__desc">Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus.
-                        Suspendisse ac urna. Etiam pellentesque mauris ut lectus.
-                    </p>
-                    <a class="view-more__link card__more">more info</a>
+                    <div class="accordion">
+                        <input id="ac-4" type="checkbox"/>
+                        <label for="ac-4" class="accordion__link card__more">more info</label>
+                        <p class="accordion__desc card__desc">Mauris nibh felis, adipiscing varius, adipiscing in,
+                            lacinia
+                            vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Tegestas, ante et
+                            vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus
+                            libero, fauc... Morbi purus libero, faucib... text text text tesdfsdftext text text text
+                            text text text sdf
+                        </p>
+                    </div>
                 </div>
                 <div class="card">
                     <h2 class="card__title">Donec quis dui at<br/> dolor tempor interdum</h2>
                     <div class="card__image"><img src="../assets/img/pretty-girl.png"/></div>
-                    <p class="card__desc">Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet
-                        mi
-                        ullamcorper vehicula. Integer adipiscing risus
-                    </p>
-                    <a class="view-more__link card__more">more info</a>
+                    <div class="accordion">
+                        <input id="ac-5" type="checkbox"/>
+                        <label for="ac-5" class="accordion__link card__more">more info</label>
+                        <p class="accordion__desc card__desc">Suspendisse mauris. Fusce accumsan mollis eros.
+                            Pellentesque
+                            a diam sit
+                            amet mi ullamcorper vehicula. Integer adipiscing risus Tegestas, ante et vulputate volutpat,
+                            eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, fauc... Morbi
+                            purus libero, faucib... text text text
+                        </p>
+                    </div>
                 </div>
                 <div class="card">
                     <h2 class="card__title">Fusce lobortis<br/> lorem at ipsum semper</h2>
                     <div class="card__image"><img src="../assets/img/redhood.png"/></div>
-                    <p lang="ru" class="card__desc">Faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus.
-                        Integer
-                        sagittis.
-                        Vivamus a mauris eget arcu gravida tristique
-                    </p>
-                    <a class="view-more__link card__more">more info</a>
+                    <div class="accordion">
+                        <input id="ac-6" type="checkbox"/>
+                        <label for="ac-6" class="accordion__link card__more">more info</label>
+                        <p class="accordion__desc card__desc">
+                            Faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis.
+                            Vivamus a mauris eget arcu gravida tristiqueTegestas, ante et vulputate volutpat, eros
+                            pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, fauc... Morbi purus
+                            libero, faucib... text text text
+                        </p>
+                    </div>
                 </div>
             </div>
 

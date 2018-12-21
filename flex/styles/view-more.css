@@ -50,19 +50,3 @@
 .view-more__button > button:hover {
     cursor: pointer;
 }
-
-.view-more__link {
-    font: bold 14px SourceSansPro;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.view-more__link:hover {
-    cursor: pointer;
-}
-
-.view-more__link::after {
-    color: #ed3237;
-    content: "❯";
-    margin-left: 5px;
-}

@@ -1,0 +1,56 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion input {
+    display: none;
+}
+
+.accordion > label {
+    order: 2;
+}
+
+.accordion > p {
+    order: 1;
+}
+
+.accordion input:checked ~ p {
+    height: 220px;
+    transition: height 0.7s ease-in-out;
+}
+
+.accordion input:checked ~ label::before {
+    color: #ed3237;
+    content: "❮";
+    margin-right: 5px;
+}
+
+.accordion input:checked ~ label::after {
+    color: #ed3237;
+    content: "";
+    margin-left: 0;
+}
+
+.accordion__desc {
+    height: 80px;
+    overflow: hidden;
+    transition: height 0.7s ease-in-out;
+}
+
+
+.accordion__link {
+    font: bold 14px SourceSansPro;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.accordion__link:hover {
+    cursor: pointer;
+}
+
+.accordion__link::after {
+    color: #ed3237;
+    content: "❯";
+    margin-left: 5px;
+}

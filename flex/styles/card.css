@@ -37,11 +37,10 @@
     margin-bottom: 20px;
 
     color: #676364;
-    font: 14px/22px SourceSansPro;
+    font: 14px/21px SourceSansPro;
     hyphens: auto;
 }
 
 .card__more {
-    margin-top: 20px;
-    margin-left: 28px;
+    margin: 0 0 35px 28px;
 }
