@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/fonts.css">
     <link rel="stylesheet" type="text/css" href="styles/layout.css">
+    <link rel="stylesheet" type="text/css" href="styles/slider.css">
     <link rel="stylesheet" type="text/css" href="styles/view-more.css">
     <link rel="stylesheet" type="text/css" href="styles/section-header.css">
     <link rel="stylesheet" type="text/css" href="styles/separator.css">
@@ -37,9 +38,37 @@
                 <a href="#" class="home__nav-item">products</a>
                 <a href="#" class="home__nav-item">contact</a>
             </nav>
-            <div class="home__slider">
-                <img class="slider__img" src="../assets/img/slider1.png" alt="Slider image">
+
+            <div class="home__slider slider">
+                <div class="gallery">
+                    <input type="radio" id="slide-1" value="1" name="gallery-slider"
+                           checked="checked"/>
+                    <input type="radio" id="slide-2" value="2" name="gallery-slider"/>
+                    <input type="radio" id="slide-3" value="3" name="gallery-slider"/>
+                    <input type="radio" id="slide-4" value="4" name="gallery-slider"/>
+
+                    <article class="gallery__slide gallery__slide-1">
+                        <label for="slide-2" class="gallery__navigate"></label>
+                        <label for="slide-4" class="gallery__navigate"></label>
+                    </article>
+
+                    <article class="gallery__slide gallery__slide-2">
+                        <label for="slide-3" class="gallery__navigate"></label>
+                        <label for="slide-1" class="gallery__navigate"></label>
+                    </article>
+
+                    <article class="gallery__slide gallery__slide-3">
+                        <label for="slide-1" class="gallery__navigate"></label>
+                        <label for="slide-2" class="gallery__navigate"></label>
+                    </article>
+
+                    <article class="gallery__slide gallery__slide-4">
+                        <label for="slide-1" class="gallery__navigate"></label>
+                        <label for="slide-3" class="gallery__navigate"></label>
+                    </article>
+                </div>
             </div>
+
 
             <div class="home__info">
                 <h1 class="section__header-title">Lorem ipsum</h1>
