@@ -1,0 +1,39 @@
+.card {
+    width: 270px;
+    height: 420px;
+    background-color: #e2e2e2;
+    box-shadow: -9px 10px 0 0 #2b2a2a2e;
+    border-radius: 8px 0 8px 8px;
+    display: table-cell;
+    position: relative;
+}
+
+.card__title {
+    padding: 36px 0 0 29px;
+    font: bold 16px SourceSansPro;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+.card__image {
+    padding-top: 20px;
+}
+
+.card__image > img {
+    height: 147px;
+    width: 270px;
+}
+
+.card__desc {
+    width: 220px;
+    padding: 21px 0 22px 28px;
+
+    color: #676364;
+    font: 14px/22px SourceSansPro;
+    word-break: break-word;
+}
+
+.card__more {
+    padding: 0 0 20px 28px;
+}
