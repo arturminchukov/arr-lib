@@ -1,0 +1,19 @@
+.services {
+    margin-top: 46px;
+    width: 100%;
+}
+
+.services__desc {
+    margin-top: 6px;
+}
+
+.services__cards {
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services__separator {
+    margin-top: 63px;
+}

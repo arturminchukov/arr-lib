@@ -1,0 +1,51 @@
+.accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion__input {
+    display: none;
+}
+
+.accordion__label {
+    order: 2;
+
+    font: bold 14px SourceSansPro;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.accordion__label:hover {
+    cursor: pointer;
+}
+
+.accordion__label::after {
+    color: #ed3237;
+    content: "❯";
+    margin-left: 5px;
+}
+
+.accordion__desc {
+    order: 1;
+
+    height: 80px;
+    overflow: hidden;
+    transition: height 0.7s ease-in-out;
+}
+
+.accordion__input:checked ~ .accordion__desc {
+    height: 220px;
+    transition: height 0.7s ease-in-out;
+}
+
+.accordion__input:checked ~ .accordion__label::before {
+    color: #ed3237;
+    content: "❮";
+    margin-right: 5px;
+}
+
+.accordion__input:checked ~ .accordion__label::after {
+    color: #ed3237;
+    content: "";
+    margin-left: 0;
+}

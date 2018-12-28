@@ -1,0 +1,52 @@
+.view-more__button {
+    font-size: 0;
+    margin: 55px auto auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.view-more__button::before {
+    width: calc(50% - 72px);
+    margin: auto;
+    height: 23px;
+    content: "";
+    background: url("../../assets/img/triple-line.png") no-repeat;
+    display: inline-block;
+}
+
+.view-more__button::after {
+    width: calc(50% - 72px);
+    margin: auto;
+    height: 23px;
+    content: "";
+    background: url("../../assets/img/triple-line.png") no-repeat;
+    display: inline-block;
+}
+
+.view-more__button > * {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.view-more__button > button {
+    display: inline-block;
+    width: 120px;
+    height: 37px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    background-color: #ed3237;
+    color: #ebebeb;
+    text-transform: uppercase;
+    font: 600 16px SourceSansPro;
+    letter-spacing: 1px;
+
+    border: 0;
+    border-radius: 5px;
+    box-shadow: -4px 4px 0px 0px #2b2a2a2e;
+}
+
+.view-more__button > button:hover {
+    cursor: pointer;
+}
